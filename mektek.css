@@ -22,6 +22,8 @@
 	font-weight: bold;
 	height:150px;
 	background-color:rgb(0,116,97);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
 
 }
 
@@ -45,6 +47,8 @@
 	font-weight: bold;
 	height:150px;
 	background-color:rgb(71,49,108);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
 
 }
 
@@ -68,6 +72,8 @@
 	font-weight: bold;
 	height:150px;
 	background-color:rgb(188,17,66);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
 
 }
 
@@ -91,6 +97,8 @@
 	font-weight: bold;
 	height:150px;
 	background-color:rgb(53,64,80);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
 
 }
 
@@ -114,6 +122,8 @@
 	font-weight: bold;
 	height:150px;
 	background-color:rgb(145,74,142);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
 
 }
 
@@ -137,6 +147,8 @@
 	font-weight: bold;
 	height:150px;
 	background-color:rgb(0,75,142);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
 
 }
 
