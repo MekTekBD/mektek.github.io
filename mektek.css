@@ -11,6 +11,170 @@
 
 }
 
+.arduino
+{
+	
+	padding:10px;
+	border:1px solid gray;
+	border-radius: 0px;
+	margin:20px;
+	color: white;
+	font-weight: bold;
+	height:150px;
+	background-color:rgb(0,116,97);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
+
+}
+
+.arduino:hover
+{
+    -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);  
+}
+
+.iot
+{
+	
+	padding:10px;
+	border:1px solid gray;
+	border-radius: 0px;
+	margin:20px;
+	color: white;
+	font-weight: bold;
+	height:150px;
+	background-color:rgb(71,49,108);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
+
+}
+
+.iot:hover
+{
+    -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);  
+}
+
+.rpi
+{
+	
+	padding:10px;
+	border:1px solid gray;
+	border-radius: 0px;
+	margin:20px;
+	color: white;
+	font-weight: bold;
+	height:150px;
+	background-color:rgb(188,17,66);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
+
+}
+
+.rpi:hover
+{
+    -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);  
+}
+
+.mc
+{
+	
+	padding:10px;
+	border:1px solid gray;
+	border-radius: 0px;
+	margin:20px;
+	color: white;
+	font-weight: bold;
+	height:150px;
+	background-color:rgb(53,64,80);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
+
+}
+
+.mc:hover
+{
+    -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);  
+}
+
+.web
+{
+	
+	padding:10px;
+	border:1px solid gray;
+	border-radius: 0px;
+	margin:20px;
+	color: white;
+	font-weight: bold;
+	height:150px;
+	background-color:rgb(145,74,142);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
+
+}
+
+.web:hover
+{
+    -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);  
+}
+
+.net
+{
+	
+	padding:10px;
+	border:1px solid gray;
+	border-radius: 0px;
+	margin:20px;
+	color: white;
+	font-weight: bold;
+	height:150px;
+	background-color:rgb(0,75,142);
+	-webkit-transition: transform 300ms;
+        -moz-transition: -moz-transform 300ms;
+
+}
+
+.net:hover
+{
+    -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);  
+}
+
+.write
+{
+	 font-size: 30px;
+	 margin-top:50px;
+
+}
+
+.fc
+{
+	background-color: black;
+	color: white;
+
+}
+
 #pic
 {
 	background: url(images/s.jpg) no-repeat;
