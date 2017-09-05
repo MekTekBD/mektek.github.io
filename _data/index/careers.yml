@@ -139,3 +139,16 @@
     detail: Dhaka
     i18n: company_f_job
   icon: fa-plus-square
+
+  - name:
+      detail: Achievement 11
+      i18n: company_f
+    desc:
+      detail: Runner up at DUET Techfest-2k17 in DUET
+    date:
+      detail: 14th July,2017
+      i18n: company_f_date
+    job:
+      detail: Gazipur, Dhaka 
+      i18n: company_f_job
+    icon: fa-plus-square
