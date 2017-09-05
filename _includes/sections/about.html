@@ -3,13 +3,13 @@
 <html>
 <head>
     <title></title>
-   
+
   <script type="text/javascript" src="js/jquery.js"></script>
-  <link type="text/css" rel="stylesheet" href="lightslider.css" /> 
-  <link type="text/css" rel="stylesheet" href="lightslider.min.css" />                  
+  <link type="text/css" rel="stylesheet" href="lightslider.css" />
+  <link type="text/css" rel="stylesheet" href="lightslider.min.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/lightslider.js"></script>
- 
+
 
 <style>
         ul{
@@ -36,7 +36,7 @@
 
     </style>
 <script>
-    
+
 
 
     $(document).ready(function() {
@@ -46,7 +46,7 @@
             pauseOnHover: true,
             onBeforeSlide: function (el) {
                 $('#current').text(el.getCurrentSlideCount());
-            } 
+            }
         });
         $('#total').text(autoplaySlider.getTotalSlideCount());
     });
@@ -54,7 +54,7 @@
 
 </script>
 <script>
-         
+
 </script>
 
 </head>
@@ -78,7 +78,7 @@
                 <h4><span class="navy">Saif Maruf </span>  </h4><br>
                 <p style="color:black;">Founder Of Mektek</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -111,7 +111,7 @@
                 <h4><span class="navy">Nasimul Haque Robin </span>  </h4><br>
                 <p style="color:black;">Co Founder Of Mektek</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -144,7 +144,7 @@
                 <h4><span class="navy">Ashadullah Shawon </span>  </h4><br>
                 <p style="color:black;">Member Of Mektek</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -177,7 +177,7 @@
                 <h4><span class="navy">Saif Maruf </span>  </h4><br>
                 <p style="color:black;">Founder Of Mektek</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -210,7 +210,7 @@
                 <h4><span class="navy">Nasimul Haque Robin </span>  </h4><br>
                 <p style="color:black;">Co Founder Of Mektek</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -243,7 +243,7 @@
                 <h4><span class="navy">Ashadullah Shawon</span>  </h4><br>
                 <p style="color:black;">Member Of Mektek</p>
                 <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -271,23 +271,23 @@
                 </li>
             </ul>
         </div>
-                        
-  
-  
-            
-            
-            
+
+
+
+
+
+
      </div>
     </div>-->
     <div class="row">
-      <div class="col-sm-4"> 
+      <div class="col-sm-4">
        <div class="team-member wow zoomIn">
        {% for post in site.categories.saif_maruf limit:1 %}
        <img src="{{ site.img_path}}/maruf.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
                 <h4><span class="navy">Saif Maruf </span>  </h4>
-                <p style="color:black;">Founder Of Mektek</p>
+                <p style="color:black;">Co-Founder</p>
                 <a href="http://saif.mektekbd.com" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/Saif-Uz-Zaman/" target="blank"><i class="fa fa-github"></i></a></li>
@@ -304,8 +304,8 @@
                     {% if site.author.email %}
                     <li><a href="mailto:saif.mektek@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                    
-                    
+
+
                 </ul></div><br>
 
        {% endfor %}
@@ -317,9 +317,9 @@
        {% for post in site.categories.saif_maruf limit:1 %}
        <img src="{{ site.img_path}}/robin.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
                 <h4><span class="navy">Nasimul Haque Robin </span>  </h4>
-                <p style="color:black;">Co-Founder Of Mektek</p>
+                <p style="color:black;">Co-Founder</p>
                 <a href="http://robin.mektekbd.com" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -336,8 +336,8 @@
                     {% if site.author.email %}
                     <li><a href="mailto:nasimulhaque.robin@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                    
-                    
+
+
                 </ul></div><br>
 
        {% endfor %}
@@ -350,7 +350,7 @@
                 <h4><span class="navy">Ashadullah Shawon</span>  </h4>
                 <p style="color:black;">Founder Member</p>
                 <a href="http://shawon.mektekbd.com" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/shawon100" target="blank"><i class="fa fa-github"></i></a></li>
@@ -367,8 +367,8 @@
                     {% if site.author.email %}
                     <li><a href="mailto:shawonashadullah@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                   
-                    
+
+
                 </ul></div><br>
 
        {% endfor %}
@@ -377,14 +377,14 @@
 
 
     <div style="margin-top:10px;" class="row">
-      <div class="col-sm-4"> 
+      <div class="col-sm-4">
        <div class="team-member wow zoomIn">
        {% for post in site.categories.saif_maruf limit:1 %}
        <img src="{{ site.img_path}}/tajbid.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
                 <h4><span class="navy">Tajbid Shuvo </span>  </h4>
                 <p style="color:black;">Founder Member</p>
                 <a href="http://tajbid.mektekbd.com" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -401,8 +401,8 @@
                     {% if site.author.email %}
                     <li><a href="mailto:shahtajbid@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                   
-                    
+
+
                 </ul></div><br>
 
        {% endfor %}
@@ -416,7 +416,7 @@
                 <h4><span class="navy">Sakib Zaman </span>  </h4>
                 <p style="color:black;">Founder Member</p>
                 <a href="http://sakib.mektekbd.com" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
@@ -433,8 +433,8 @@
                     {% if site.author.email %}
                     <li><a href="mailto:sakibzaman3099@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                   
-                    
+
+
                 </ul></div><br>
 
        {% endfor %}
@@ -447,7 +447,7 @@
                 <h4><span class="navy">Aniqa Fahmida </span>  </h4>
                 <p style="color:black;">Founder Member</p>
                 <a href="http://anika.mektekbd.com" class="btn btn-info">Details</a><br>
-                 
+
                 <div style="margin-top: 10px;"><ul class="list-inline social-icon">
                     {% if site.author.github_username %}
                     <li><a href="https://github.com/aniqa" target="blank"><i class="fa fa-github"></i></a></li>
@@ -464,19 +464,18 @@
                     {% if site.author.email %}
                     <li><a href="mailto:anikafahmidahossain29@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
-                   
+
                 </ul></div><br>
 
        {% endfor %}
        </div>
     </div>
-     
+
     </div>
-    
+
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
             <p><span data-i18n="about_me.des"></span></p>
         </div>
     </div>
 </div>
-
