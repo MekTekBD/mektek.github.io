@@ -82,4 +82,71 @@
   job:
     detail: Dhaka
     i18n: company_f_job
-  icon: fa-plus-square 
+
+- name:
+    detail: Achievement 7
+    i18n: company_f
+  desc:
+    detail: Champion and Runner up at  Arduino Day 17 in Rajshahi University
+    i18n: company_f_desc
+  date:
+    detail: 1st April,2017
+    i18n: company_f_date
+  job:
+    detail: Rajshahi
+    i18n: company_f_job
+
+- name:
+    detail: Achievement 8
+    i18n: company_f
+  desc:
+    detail: 2nd Runner up and honerable position at project showcasing in  EEE day 2017, BUET in Senior Catagory
+    i18n: company_f_desc
+  date:
+    detail: 18th May,2017
+    i18n: company_f_date
+  job:
+    detail: Dhaka
+    i18n: company_f_job
+
+- name:
+    detail: Achievement 9
+    i18n: company_f
+  desc:
+    detail: Runner up and  honerable position at project showcasing in  EEE day 2017, BUET in Junior Catagory
+    i18n: company_f_desc
+  date:
+    detail: 18th May,2017
+    i18n: company_f_date
+  job:
+    detail: Dhaka
+    i18n: company_f_job
+  icon: fa-plus-square
+
+  - name:
+      detail: Achievement 10
+      i18n: company_f
+    desc:
+      detail: Second Runner up at SS12 Project Competition and Maker Fair 2017
+      i18n: company_f_desc
+    date:
+      detail: 7th July,2017
+      i18n: company_f_date
+    job:
+      detail: Dhaka
+      i18n: company_f_job
+    icon: fa-plus-square
+
+    - name:
+        detail: Achievement 11
+        i18n: company_f
+      desc:
+        detail: Runner up at DUET Techfest-2k17
+        i18n: company_f_desc
+      date:
+        detail: 14th July,2017
+        i18n: company_f_date
+      job:
+        detail: Gazipur
+        i18n: company_f_job
+      icon: fa-plus-square
